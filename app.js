@@ -6,6 +6,7 @@ const sauceRoutes = require('./routes/sauce');
 const userRoutes = require('./routes/user');
 const path = require('path');
 
+/* Connection to Mongoose Database */
 mongoose.connect('mongodb+srv://user_kenny:Bato123@cluster0.lj1gl.mongodb.net/FromNowhereProd?retryWrites=true&w=majority',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
